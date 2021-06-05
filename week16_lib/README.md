@@ -1,5 +1,7 @@
 # 注意
 
+直接下載 week16.zip 即可，全部東西都在裡面。
+
 不用去看/改，除了MakeMusic.cs以外的任何內容，
 
 你只要全部下載後放入你的project中，並且記得改namespace即可。
