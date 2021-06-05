@@ -5,7 +5,7 @@
 There are some sample sheet & music in sample/... :rotating_light:DO NOT:rotating_light: change them. 
 
 1. Read both ***duration.txt*** and ***tone.txt*** files under same directory. 
-2. Apply you learned so far, do some string handling to them.
+2. Apply what you learned so far, do some string handling to data read from *.txt.
 3. Print all data like example below.
 
 Do it with any method you want, or just check method in [System.IO.File](https://docs.microsoft.com/en-us/dotnet/api/system.io.file?view=net-5.0).
@@ -35,9 +35,9 @@ static void Main(string[] args)
 Here are some situation below that might make Wav function break.
 
 1. File not found.
-2. Path doesn't exist.
-3. Duration and tone are not .txt format.
-4. Output music file are not .wav format.
+2. Directory is not exist.
+3. Duration and tone must be .txt format.
+4. Output file must be .wav format.
 
 Use try-catch/throw to display different exception, then reminds user.
 
@@ -45,33 +45,33 @@ Use try-catch/throw to display different exception, then reminds user.
 ```C#
 // Case: File Not found
 MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Dejavu\", "TONE.txt", "DURATION.txt", "out0.wav");
-
-// output:
+```
+```
 File Not found. (TONE.txt, DURATION.txt)
 ```
 #### Example2:
 ```C#
-// Case: Path doesn't exist
+// Case: Path are not exist
 MakeMusic.Wav(@"C:\Users\TA\workshop\week9999\Sample\Wily'sCastle\", "tone.txt", "duration.txt", "out1.wav", 1);
-
-// output:
-Path doesn't exist. (C:\Users\TA\workshop\week9999\Sample\Wily'sCastle\)
+```
+```
+Directory is not exist. (C:\Users\TA\workshop\week9999\Sample\Wily'sCastle\)
 ```         
 #### Example3:
 ```C#
 // Case: Duration and tone are not .txt format.
 MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Megalovania\", "tone.dat", "duration.jpg", "out2.wav", 2);
-
-// output:
+```
+```
 Input files must be .txt files. (tone.dat, duration.jpg)
 ```
 #### Example4:
 ```C#
 // Case: Output music file are not .wav format.
 MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "out3.mp3", 3);
-
-// output:
-Output music file must be .wav file. (out3.mp3)
+```
+```
+Output music file must be .wav format. (out3.mp3)
 ```            
 # Hard
 ## Question: Modify given sheet
