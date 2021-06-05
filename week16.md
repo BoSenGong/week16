@@ -86,7 +86,7 @@ Output music file must be .wav file. (out3.mp3)
 #### Example2:
 1. 讀取.../Megalovania/duration.txt 的樂譜
 2. 將全部的音符持續時間乘上1.5，讓整體節奏變慢
-3. 將結果寫入new_diration.txt，再輸出一次wav檔，聽聽看是否有差別?
+3. 將結果寫入new_dration.txt，再輸出一次wav檔，聽聽看是否有差別?
 
 #### NOTE:
 duration.txt / note.txt 兩者的檔案結尾，都沒有空白。
