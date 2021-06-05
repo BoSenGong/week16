@@ -15,8 +15,8 @@ Do it with any method you want, or just check method in [System.IO.File](https:/
 1. [String.Replace Method](https://docs.microsoft.com/en-us/dotnet/api/system.string.replace?view=net-5.0)
 2. [String.Split Method](https://docs.microsoft.com/en-us/dotnet/api/system.string.split?view=net-5.0)
 
-#### Example1:
-#### Example2:
+#### Example:
+![ex1](https://imgur.com/5P3qRQ7.jpg) ![ex2](https://imgur.com/hArRax6.jpg)
 # Medium 
 ## Question: Use try-catch/throw let Wav function in MakeMusic.cs more robust.
 
@@ -45,21 +45,33 @@ Use try-catch/throw to display different exception, then reminds user.
 ```C#
 // Case: File Not found
 MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Dejavu\", "TONE.txt", "DURATION.txt", "out0.wav");
+
+// output:
+File Not found. (TONE.txt, DURATION.txt)
 ```
 #### Example2:
 ```C#
-// Case: Path doesn;t exist
+// Case: Path doesn't exist
 MakeMusic.Wav(@"C:\Users\TA\workshop\week9999\Sample\Wily'sCastle\", "tone.txt", "duration.txt", "out1.wav", 1);
+
+// output:
+Path doesn't exist. (C:\Users\TA\workshop\week9999\Sample\Wily'sCastle\)
 ```         
 #### Example3:
 ```C#
 // Case: Duration and tone are not .txt format.
 MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Megalovania\", "tone.dat", "duration.jpg", "out2.wav", 2);
+
+// output:
+Input files must be .txt files. (tone.dat, duration.jpg)
 ```
 #### Example4:
 ```C#
 // Case: Output music file are not .wav format.
 MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "out3.mp3", 3);
+
+// output:
+Output music file must be .wav file. (out3.mp3)
 ```            
 # Hard
 ## Question: Modify given sheet
