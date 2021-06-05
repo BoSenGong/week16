@@ -51,7 +51,7 @@ File Not found. (TONE.txt, DURATION.txt)
 ```
 #### Example2:
 ```C#
-// Case: Path are not exist
+// Case: Directory is not exist.
 MakeMusic.Wav(@"C:\Users\TA\workshop\week9999\Sample\Wily'sCastle\", "tone.txt", "duration.txt", "out1.wav", 1);
 ```
 ```
@@ -67,7 +67,7 @@ Input files must be .txt files. (tone.dat, duration.jpg)
 ```
 #### Example4:
 ```C#
-// Case: Output music file are not .wav format.
+// Case: Output file must be .wav format.
 MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "out3.mp3", 3);
 ```
 ```
