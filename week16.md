@@ -12,8 +12,8 @@ Do it with any method you want, or just check method in [System.IO.File](https:/
 
 **Hint:** 
 
-1: [String.Replace Method](https://docs.microsoft.com/en-us/dotnet/api/system.string.replace?view=net-5.0)
-2: [String.Split Method](https://docs.microsoft.com/en-us/dotnet/api/system.string.split?view=net-5.0)
+1. [String.Replace Method](https://docs.microsoft.com/en-us/dotnet/api/system.string.replace?view=net-5.0)
+2. [String.Split Method](https://docs.microsoft.com/en-us/dotnet/api/system.string.split?view=net-5.0)
 
 #### Example1:
 #### Example2:
