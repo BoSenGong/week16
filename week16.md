@@ -4,7 +4,7 @@
 ## Question: Read the music sheet & Display
 There are some sample sheet & music in sample/... :rotating_light:DO NOT:rotating_light: change them. 
 
-1. Read both ***duration.txt*** and ***tone.txt*** files under same directory. 
+1. Read both ***duration.txt*** and ***tone.txt*** files that put in same directory.
 2. Apply what you learned so far, do some string handling to data read from *.txt.
 3. Print all data like example below.
 
