@@ -30,9 +30,25 @@ Here are some situation below that might make Wav function break.
 Use try-catch/throw to display different exception, then reminds user.
 
 #### Example1:
+```C#
+// Case: File Not found
+MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Dejavu\", "TONE.txt", "DURATION.txt", "out0.wav");
+```
 #### Example2:
+```C#
+// Case: Path doesn;t exist
+MakeMusic.Wav(@"C:\Users\TA\workshop\week9999\Sample\Wily'sCastle\", "tone.txt", "duration.txt", "out1.wav", 1);
+```         
 #### Example3:
+```C#
+// Case: Duration and tone are not .txt format.
+MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Megalovania\", "tone.dat", "duration.jpg", "out2.wav", 2);
+```
 #### Example4:
+```C#
+// Case: Output music file are not .wav format.
+MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "out3.mp3", 3);
+```            
 # Hard
 ## Question: Write your own music sheet into duration.txt & tone.txt
 #### Example:
