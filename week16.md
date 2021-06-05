@@ -62,5 +62,19 @@ MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Megalovania\", "tone.dat", "d
 MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "out3.mp3", 3);
 ```            
 # Hard
-## Question: Write your own music sheet into duration.txt & tone.txt
-#### Example:
+## Question: Modify given sheet
+1. 變調
+2. 變奏
+
+#### Example1:
+1. 讀取.../Magic/tone.txt 的樂譜
+2. 將全部的升降記號#/b都取消，將全部音符還原
+3. 將結果寫入new_tone.txt，再輸出一次wav檔，聽聽看是否有差別?
+
+#### Example2:
+1. 讀取.../Megalovania/duration.txt 的樂譜
+2. 將全部的音符持續時間乘上1.5，讓整體節奏變慢
+3. 將結果寫入new_diration.txt，再輸出一次wav檔，聽聽看是否有差別?
+
+#### NOTE:
+duration.txt / note.txt 兩者的檔案結尾，都沒有空白。
