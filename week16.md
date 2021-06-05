@@ -20,6 +20,18 @@ Do it with any method you want, or just check method in [System.IO.File](https:/
 # Medium 
 ## Question: Use try-catch/throw let Wav function in MakeMusic.cs more robust.
 
+Example usage of Wav function
+
+```C#
+static void Main(string[] args)
+{
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Dejavu\", "tone.txt", "duration.txt", "out0.wav");
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Wily'sCastle\", "tone.txt", "duration.txt", "out1.wav", 1);
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Megalovania\", "tone.txt", "duration.txt", "out2.wav", 2);
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "out3.wav", 3);
+}
+```
+
 Here are some situation below that might make Wav function break.
 
 1. File not found.
