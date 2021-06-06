@@ -25,12 +25,12 @@ Example usage of Wav function
 ```C#
 static void Main(string[] args)
 {
-    MakeMusic.Wav(@"C:\Users\clay0\workshop\coding\csharp\week16\Sample\Unity\", "tone.txt", "duration.txt", "Unity.wav", 5);
-    MakeMusic.Wav(@"C:\Users\clay0\workshop\coding\csharp\week16\Sample\NightOfFire\", "tone.txt", "duration.txt", "NightOfFire.wav", 4);
-    MakeMusic.Wav(@"C:\Users\clay0\workshop\coding\csharp\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "MagicForest.wav", 3);
-    MakeMusic.Wav(@"C:\Users\clay0\workshop\coding\csharp\week16\Sample\Megalovania\", "tone.txt", "duration.txt", "Megalovania.wav", 2);
-    MakeMusic.Wav(@"C:\Users\clay0\workshop\coding\csharp\week16\Sample\Wily'sCastle\", "tone.txt", "duration.txt", "Wily'sCastle.wav", 1);
-    MakeMusic.Wav(@"C:\Users\clay0\workshop\coding\csharp\week16\Sample\Dejavu\", "tone.txt", "duration.txt", "Dejavu.wav");
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Unity\", "tone.txt", "duration.txt", "Unity.wav", 5);
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\NightOfFire\", "tone.txt", "duration.txt", "NightOfFire.wav", 4);
+    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "MagicForest.wav", 3);
+    MakeMusic.Wav(@"C:\TA\workshop\week16\Sample\Megalovania\", "tone.txt", "duration.txt", "Megalovania.wav", 2);
+    MakeMusic.Wav(@"C:\TA\workshop\week16\Sample\Wily'sCastle\", "tone.txt", "duration.txt", "Wily'sCastle.wav", 1);
+    MakeMusic.Wav(@"C:\TA\workshop\week16\Sample\Dejavu\", "tone.txt", "duration.txt", "Dejavu.wav");
 }
 ```
 
