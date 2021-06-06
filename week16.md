@@ -32,14 +32,14 @@ static void Main(string[] args)
 }
 ```
 
-Here are some situation below that might make Wav function break.
+The following are situations that might make Wav function break.
 
 1. File not found.
 2. Directory is not exist.
 3. Duration and tone must be .txt format.
 4. Output file must be .wav format.
 
-Use try-catch/throw to display different exception, then reminds user.
+Add try-catch and throw to function - Wav(), to prevent the situations above.
 
 #### Example1:
 ```C#
