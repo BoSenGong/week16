@@ -74,22 +74,22 @@ MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\MagicForest\", "tone.txt", "d
 Output music file must be .wav format. (out3.mp3)
 ```            
 # Hard
-## Question: Modify given sheet
-1. 變調
-2. 變奏
+## Question: Modulate given sheet
+1. [Natural](https://zh.wikipedia.org/wiki/%E8%BF%98%E5%8E%9F%E5%8F%B7)
+2. Increase [bpm](https://zh.wikipedia.org/wiki/%E9%80%9F%E5%BA%A6_(%E9%9F%B3%E6%A8%82))
 
 #### Example1:
-1. 讀取.../Magic/tone.txt 的樂譜
-2. 將全部的升降記號#/b都取消，將全部音符還原
-3. 將結果寫入new_tone.txt，再輸出一次wav檔，聽聽看是否有差別?
+1. Read .../sample/MagicForest/tone.txt
+2. Remove all '#' and 'b' in it, write it into new_tone.txt.
+3. MakeMusic.Wav(@"C:\Users\TA\workshop\week18\Sample\MagicForest\", "new_tone.txt", "duration.txt", "newMagicforest.wav", 1);
 
 #### Example2:
-1. 讀取.../Megalovania/duration.txt 的樂譜
-2. 將全部的音符持續時間乘上1.5，讓整體節奏變慢
-3. 將結果寫入new_dration.txt，再輸出一次wav檔，聽聽看是否有差別?
+1. Read .../sample/Megalovania/duration.txt
+2. Multiply all duration by 1.3, write it into new_duration.txt.
+3. MakeMusic.Wav(@"C:\Users\TA\workshop\week18\Sample\MagicForest\", "tone.txt", "new_duration.txt", "newMegalovania.wav", 1);
 
 #### NOTE:
-duration.txt / note.txt 兩者的檔案結尾，都沒有空白。
+duration.txt / note.txt files end without space or enter.
 
 # reference
 [1] https://stackoverflow.com/questions/14042630/how-to-generate-sounds-according-to-frequency
