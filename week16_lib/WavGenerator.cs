@@ -71,6 +71,7 @@ namespace week16
                 Violin violin = new Violin(freq);
                 // adsr filter
                 ADSR adsr  = new ADSR(0.2 * time, 0.0 * time, 0.4 * time, time, 1.0);
+                ADSR adsr2  = new ADSR(0.1 * time, 0.0 * time, 0.2 * time, time, 1.0);
                 for (double timePass = 0; timePass < time; timePass += timeStep)
                 {
                     short s = 0;
@@ -83,14 +84,17 @@ namespace week16
                         break;
                         case 2:
                         s = (short) (adsr.Filter(timePass) *
-                                       (0.5 * ampFixer * ampl * sawtooth.WaveForm(timePass, previousPhase) +
-                                        0.5 * ampFixer * ampl * sin.WaveForm(timePass, previousPhase)));
+                                       (0.7 * ampFixer * ampl * sawtooth.WaveForm(timePass, previousPhase) +
+                                        0.7 * ampFixer * ampl * sin.WaveForm(timePass, previousPhase)));
                         break;
                         case 3:
                         s = (short) (adsr.Filter(timePass) * ampFixer * ampl * piano.WaveForm(timePass, previousPhase));
                         break;
                         case 4:
                         s = (short) (adsr.Filter(timePass) * ampFixer * ampl * flute.WaveForm(timePass, previousPhase));
+                        break;
+                        case 5:
+                        s = (short) (adsr2.Filter(timePass) * ampFixer * ampl * square.WaveForm(timePass, previousPhase));
                         break;
                         default:
                         s = (short) (adsr.Filter(timePass) * ampFixer * ampl * violin.WaveForm(timePass, previousPhase));
@@ -119,7 +123,8 @@ namespace week16
             this._numOfData = tones.Length;
             Dictionary<string, int> tone2Freq = new Dictionary<string, int>
             {
-                {"'Bb", 233}, {"'B", 247},
+                {"D''b", 1108}, {"D''", 1174}, 
+                {"'Bb", 233}, {"'B", 247}, {"Fb", 330}, {"C'b", 988}, {"C''", 1047}, {"F'b", 660}, 
                 {"0", 0}, {"C", 262}, {"C#", 277}, {"Db", 277}, {"D", 294}, {"D#", 311},
                 {"Eb", 311}, {"E", 330}, {"F", 349}, {"F#", 370}, {"Gb", 370}, {"G", 392},
                 {"G#", 415}, {"Ab", 415}, {"A", 440}, {"A#", 466}, {"Bb", 466}, {"B", 494},
