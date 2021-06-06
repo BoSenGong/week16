@@ -32,7 +32,7 @@ static void Main(string[] args)
 }
 ```
 
-The following are situations that might make Wav function break.
+The following situations might make Wav function break.
 
 1. File not found.
 2. Directory is not exist.
