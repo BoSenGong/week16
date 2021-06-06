@@ -2,7 +2,7 @@
 
 # Easy 
 ## Question: Read the music sheet & Display
-In sample/... are some sample sheet & music :rotating_light:DO NOT:rotating_light: change them. 
+In sample/... are some sample sheet & music, :rotating_light:DO NOT:rotating_light: change them. 
 
 1. Read both ***duration.txt*** and ***tone.txt*** files that put in same directory.
 2. Apply what you learned so far, do some string handling to data read from *.txt.
