@@ -25,10 +25,12 @@ Example usage of Wav function
 ```C#
 static void Main(string[] args)
 {
-    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Dejavu\", "tone.txt", "duration.txt", "out0.wav");
-    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Wily'sCastle\", "tone.txt", "duration.txt", "out1.wav", 1);
-    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\Megalovania\", "tone.txt", "duration.txt", "out2.wav", 2);
-    MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "out3.wav", 3);
+    MakeMusic.Wav(@"C:\Users\clay0\workshop\coding\csharp\week16\Sample\Unity\", "tone.txt", "duration.txt", "Unity.wav", 5);
+    MakeMusic.Wav(@"C:\Users\clay0\workshop\coding\csharp\week16\Sample\NightOfFire\", "tone.txt", "duration.txt", "NightOfFire.wav", 4);
+    MakeMusic.Wav(@"C:\Users\clay0\workshop\coding\csharp\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "MagicForest.wav", 3);
+    MakeMusic.Wav(@"C:\Users\clay0\workshop\coding\csharp\week16\Sample\Megalovania\", "tone.txt", "duration.txt", "Megalovania.wav", 2);
+    MakeMusic.Wav(@"C:\Users\clay0\workshop\coding\csharp\week16\Sample\Wily'sCastle\", "tone.txt", "duration.txt", "Wily'sCastle.wav", 1);
+    MakeMusic.Wav(@"C:\Users\clay0\workshop\coding\csharp\week16\Sample\Dejavu\", "tone.txt", "duration.txt", "Dejavu.wav");
 }
 ```
 
@@ -96,7 +98,7 @@ duration.txt / note.txt files end without space or enter.
 
 [2] [Rossing, Thomas D., The science of sound](https://ntu.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991002261069704786&context=L&vid=886NTU_INST:886NTU_INST&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,The%20science%20of%20sound&offset=0)
 
-[3] [Megalovania](https://musescore.com/user/3095931/scores/1287966)
+[3] [ADSR filter](https://www.wikiaudio.org/adsr-envelope/#:~:text=An%20ADSR%20envelope%20is%20a,often%20its%20loudness%20over%20time.)
 
 [4] [Wily's Castle](https://musescore.com/user/8853446/scores/4256311)
 
@@ -104,5 +106,11 @@ duration.txt / note.txt files end without space or enter.
 
 [6] [Magic Forest](https://www.poppiano.org/en/sheet/?id=8466)
 
-[7] [ADSR filter](https://www.wikiaudio.org/adsr-envelope/#:~:text=An%20ADSR%20envelope%20is%20a,often%20its%20loudness%20over%20time.)
+[7] [Megalovania](https://musescore.com/user/3095931/scores/1287966)
+
+[8] [Night of Fire](https://musescore.com/vodkat/scores/6108518)
+
+[9] [Unity](https://musescore.com/desion/thefatratunity)
+
+
 
