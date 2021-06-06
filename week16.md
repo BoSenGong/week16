@@ -84,9 +84,9 @@ Output music file must be .wav format. (out3.mp3)
 3. MakeMusic.Wav(@"C:\Users\TA\workshop\week18\Sample\MagicForest\", "new_tone.txt", "duration.txt", "newMagicforest.wav", 1);
 
 #### Example2:
-1. Read .../sample/Megalovania/duration.txt
-2. Multiply all duration by 1.3, write it into new_duration.txt.
-3. MakeMusic.Wav(@"C:\Users\TA\workshop\week18\Sample\MagicForest\", "tone.txt", "new_duration.txt", "newMegalovania.wav", 1);
+1. Read .../sample/Wily'sCastle/duration.txt
+2. Multiply all duration by 0.7, write it into new_duration.txt.
+3. MakeMusic.Wav(@"C:\Users\TA\workshop\week18\Sample\Wily'sCastle\", "tone.txt", "new_duration.txt", "newWily'sCastle.wav", 1);
 
 #### NOTE:
 duration.txt / note.txt files end without space or enter.
