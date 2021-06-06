@@ -38,8 +38,8 @@ The following situations might make Wav function break.
 
 1. File not found.
 2. Directory is not exist.
-3. Duration and tone must be .txt format.
-4. Output file are not .wav format.
+3. Duration and tone are not .txt format.
+4. Output file is not .wav format.
 
 Add try-catch and throw to function - Wav(), to prevent the situations above.
 
