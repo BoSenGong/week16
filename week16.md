@@ -69,7 +69,7 @@ Input files must be .txt files. (tone.dat, duration.jpg)
 ```
 #### Example4:
 ```C#
-// Case: Output file must be .wav format.
+// Case: Output file is not .wav format.
 MakeMusic.Wav(@"C:\Users\TA\workshop\week16\Sample\MagicForest\", "tone.txt", "duration.txt", "out3.mp3", 3);
 ```
 ```
