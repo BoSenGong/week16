@@ -6,6 +6,9 @@
 題目連結請參考:[link](https://zerojudge.tw/ShowProblem?problemid=b537) \
 因為我沒梗了，只能出這種題目。
 
+### Note:
+你不用考慮EOF的問題，只要根據輸入的兩個數字，印出相對應的編號即可。
+
 #### Example:
 ```
 4 3
