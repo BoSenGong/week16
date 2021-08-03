@@ -63,7 +63,7 @@ means 55688/8 = 6961
 ## Hard
 #### Question: Zerojudge_b537
 
-題目連結請參考:[link](https://zerojudge.tw/ShowProblem?problemid=b537) \
+題目敘述請參考:[link](https://zerojudge.tw/ShowProblem?problemid=b537) \
 因為我沒梗了，只能出這種題目。
 
 ### Note:
