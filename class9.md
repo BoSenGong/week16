@@ -1,6 +1,6 @@
 # Week 9 Exercise
 
-## Medium
+## Easy
 #### Question: Roman-Arabic Converter
 If input is a Arabic Number convert it to a Roman Number,
 or convert a Roman Number to an Arabic Number.
@@ -29,8 +29,6 @@ _V = 1000 * 5 = 5000
 _M = 1000 * 1000 = 1000000
 
 
-
-
 ## Medium
 #### Question: Roman Numeral Calculator
 Make a caculator which can deal with Roman Numeral and Arabic Numeral.
@@ -55,6 +53,7 @@ DXLIII+CXXIII
 DCLXVI
 ```
 means: 543+123 = 666
+
 
 ## Hard
 #### Question: Zerojudge_b537
