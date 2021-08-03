@@ -2,8 +2,8 @@
 
 ## Easy
 #### Question: Roman-Arabic Converter
-If input is a Arabic Number convert it to a Roman Number,
-or convert a Roman Number to an Arabic Number.
+If input is a Arabic Number, convert it to a Roman Number. \
+Or convert a Roman Number to an Arabic Number.
 
 Convert table:[wiki](https://en.wikipedia.org/wiki/Roman_numerals)
 
