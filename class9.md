@@ -1,6 +1,62 @@
 # Week 9 Exercise
 
-## Easy
+## Medium
+#### Question: Roman-Arabic Converter
+If input is a Arabic Number convert it to a Roman Number,
+or convert a Roman Number to an Arabic Number.
+
+Convert table:
+
+#### Example:
+```
+777
+DCCLXXVII
+```
+```
+DCLXVI
+666
+```
+```
+7414
+_VMMCDXIV
+```
+"_" means:1000*...
+
+eg:
+
+_V = 1000 * 5 = 5000
+
+_M = 1000 * 1000 = 1000000
+
+
+
+
+## Medium
+#### Question: Roman Numeral Calculator
+Make a caculator which can deal with Roman Numeral and Arabic Numeral.
+#### Example:
+```
+I-1
+zero
+```
+means: 1-1 = 0
+```
+MMMCCCXXX/II
+MDCLXV
+```
+means: 3330/2 = 1665
+```
+CCCXXXIII*III
+CMXCIX
+```
+means: 333*3 = 999
+```
+DXLIII+CXXIII
+DCLXVI
+```
+means: 543+123 = 666
+
+## Hard
 #### Question: Zerojudge_b537
 
 題目連結請參考:[link](https://zerojudge.tw/ShowProblem?problemid=b537) \
