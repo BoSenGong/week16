@@ -6,7 +6,7 @@
 
 #### Example:
 ```
-Input: s = "()"
+Input: s = "[{(([{}]))}]"
 Output: true
 ```
 ```
@@ -17,14 +17,6 @@ Output: true
 Input: s = "(]"
 Output: false
 ```
-```
-Input: s = "([)]"
-Output: false
-```
-```
-Input: s = "{[]}"
-Output: true
-```
 
 ## Medium
 #### Question: LeetCode - Zig-Zag Conversion
@@ -32,16 +24,12 @@ Output: true
 
 #### Example:
 ```
-Input: s = "PAYPALISHIRING", numRows = 3
-Output: "PAHNAPLSIIGYIR"
+Input: s = "GodIsAGirl", numRows = 4
+Output: "GGoAidsrIl"
 ```
 ```
-Input: s = "PAYPALISHIRING", numRows = 4
-Output: "PINALSIGYAHRPI"
-```
-```
-Input: s = "A", numRows = 1
-Output: "A"
+Input: s = "DamDadiDo", numRows = 3
+Output: "DaoaDdDmi"
 ```
 
 ## Hard
@@ -50,22 +38,18 @@ Output: "A"
 
 #### Example:
 ```
-Input: s = "aa", p = "a"
+Input: s = "HowDareYou", p = "Ho*"
 Output: false
 ```
 ```
-Input: s = "aa", p = "a*"
+Input: s = "HowDareYou", p = "Ho.*"
 Output: true
 ```
 ```
-Input: s = "ab", p = ".*"
+Input: s = "HowDareYou", p = ".*You"
 Output: true
 ```
 ```
-Input: s = "aab", p = "c*a*b"
-Output: true
-```
-```
-Input: s = "mississippi", p = "mis*is*p*."
+Input: s = "HowDareYou", p = "H.*o"
 Output: false
 ```
