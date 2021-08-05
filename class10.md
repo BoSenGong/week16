@@ -1,5 +1,17 @@
 # Class 10 Exercise
 
+#### Note
+You don't need to print answer in your console,
+
+just declare methods for each questions below.
+
+#### Example:
+```
+static bool Easy(string s) { ... }
+static string Medium(string s, int numRows) { ... }
+static string Hard(string s, string p) { ... }
+```
+
 ## Easy
 #### Question: LeetCode - Valid Parentheses
 [link](https://leetcode.com/problems/valid-parentheses/) 
