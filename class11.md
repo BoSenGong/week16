@@ -18,3 +18,14 @@ The deviation between your answer and answer in Note shoud smaller than 0.0001
 3. 2.0739
 4. 1.6490
 5. 3.2216
+
+***DO NOT USE*** something like 
+```
+...
+if (myAns - noteAns < 0.001)
+{
+    Console.WriteLine(myAns)
+    break;
+}
+...
+```
